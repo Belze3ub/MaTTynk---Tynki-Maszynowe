@@ -303,6 +303,7 @@ header a {
   color: var(--primary-color);
   font-size: clamp(0.9rem, 0.8087rem + 0.5217vw, 1.2rem);
   /* color: var(--accent-color); */
+  margin: .5rem 0;
 }
 
 .hero img {
