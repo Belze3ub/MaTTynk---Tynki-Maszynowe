@@ -31,32 +31,32 @@ The MaTTynk website consists of the following tabs:
 
 ### Starting Page
 
-![Starting Page Desktop](screenshots/main_desktop.png)
+![Starting Page Desktop](images/screenshots/main_desktop.png)
 _Description: This is how the Starting Page appears on desktop._
 
-![Starting Page Mobile](screenshots/main_mobile.png)
+![Starting Page Mobile](images/screenshots/main_mobile.png)
 _Description: This is how the Starting Page appears on mobile._
 
 ### About Us
 
-![About Us Desktop](screenshots/about_desktop.png)
+![About Us Desktop](images/screenshots/about_desktop.png)
 _Description: This is how the About Us page appears on desktop._
 
-![About Us Mobile](screenshots/about_mobile.png)
+![About Us Mobile](images/screenshots/about_mobile.png)
 _Description: This is how the About Us page appears on mobile._
 
 ### Offer
 
-![Offer Desktop](screenshots/offer_desktop.png)
+![Offer Desktop](images/screenshots/offer_desktop.png)
 _Description: This is how the Offer page appears on desktop._
 
-![Offer Mobile](screenshots/offer_mobile.png)
+![Offer Mobile](images/screenshots/offer_mobile.png)
 _Description: This is how the Offer page appears on mobile._
 
 ### Projects
 
-![Projects Desktop](screenshots/projects_desktop.png)
+![Projects Desktop](images/screenshots/projects_desktop.png)
 _Description: This is how the Projects page appears on desktop._
 
-![Projects Mobile](screenshots/projects_mobile.png)
+![Projects Mobile](images/screenshots/projects_mobile.png)
 _Description: This is how the Projects page appears on mobile._
