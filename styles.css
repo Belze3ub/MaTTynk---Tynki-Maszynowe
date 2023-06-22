@@ -164,6 +164,7 @@ header {
 }
 
 header img {
+  height: auto;
   max-width: 8em;
 }
 
@@ -190,6 +191,19 @@ header a {
   background-color: var(--secondary-color);
   color: var(--accent-color);
   outline: none;
+}
+
+.facebook {
+  font-size: 1.5rem;
+}
+
+.navigation .facebook:hover {
+  transform: translateY(-5px);
+}
+
+.navigation .facebook:is(:hover, :focus) {
+  color: blue;
+  background-color: transparent;
 }
 
 .logo-hamburger a {
@@ -256,6 +270,7 @@ header a {
 /* HERO SECTION */
 .hero {
   height: 95vh;
+  height: 95svh;
   background-image: url('images/realizacje/20221004_154802.webp');
   background-image: -webkit-image-set(
     url('images/realizacje/20221004_154802.webp') 1x,
@@ -303,11 +318,12 @@ header a {
   color: var(--primary-color);
   font-size: clamp(0.9rem, 0.8087rem + 0.5217vw, 1.2rem);
   /* color: var(--accent-color); */
-  margin: .5rem 0;
+  margin: 0.5rem 0;
 }
 
 .hero img {
-  width: 100vw;
+  height: auto;
+  max-width: 100%;
 }
 
 .hero-info p {
@@ -379,7 +395,7 @@ header a {
   left: 0;
   right: 0;
   bottom: 0;
-  background-image: url('./images/background.webp');
+  background-image: url('./images/background_downsized.webp');
   background-size: cover;
   filter: grayscale(1);
   z-index: -1;
@@ -470,6 +486,7 @@ footer .grid {
 }
 
 footer img {
+  height: auto;
   max-width: 10rem;
 }
 
@@ -689,6 +706,10 @@ main {
 
   .about_us img {
     width: 100%;
+  }
+
+  .navigation .facebook {
+    display: none;
   }
 }
 
