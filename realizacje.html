@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta
       property="og:title"
-      content="Nasze Realizacje - Tynki Maszynowe | MaTTynk"
+      content="Nasze Realizacje - Tynki Maszynowe Rzeszów | woj. Podkarpackie"
     />
     <meta
       property="og:description"
@@ -15,10 +15,15 @@
     <meta property="og:type" content="website" />
     <meta
       property="og:image"
-      content="./images/logo/logo_kolor_białe_tło.webp"
+      content="https://tynkimaszynowerzeszow.pl/images/logo/logo_kolor_biale_tlo_x.webp"
     />
-    <meta property="og:url" content="https://tynkimaszynowerzeszow.pl/realizacje.html" />
-    <title>Nasze Realizacje - Tynki Maszynowe | MaTTynk</title>
+    <meta
+      property="og:url"
+      content="https://tynkimaszynowerzeszow.pl/realizacje.html"
+    />
+    <title>
+      Nasze Realizacje - Tynki Maszynowe Rzeszów | woj. Podkarpackie
+    </title>
     <meta
       name="description"
       content="Realizacje - Tynki Cementowo-Wapienne, Tynki Gipsowe, Tynki Gipsowo-Utwardzane - woj. Podkarpackie"
@@ -28,6 +33,7 @@
       content="Tynki maszynowe, Tynki cementowe, Tynki gipsowe, Tynki gipsowo-utwardzane, Tynki wewnętrzne, Tynki maszynowe, Usługi tynkarskie, Województwo Podkarpackie, Rzeszów"
     />
     <link rel="shortcut icon" href="./images/favicon.ico" type="image/x-icon" />
+    <link rel="stylesheet" href="styles.css" />
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
@@ -35,11 +41,9 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     />
-    <link rel="stylesheet" href="styles.css" />
     <script src="app.js" defer></script>
   </head>
   <body>
-    <span class="spinner"></span>
     <div class="wrapper">
       <header>
         <div class="container flex">
@@ -47,11 +51,16 @@
             <a href="/">
               <img
                 class="logo"
-                src="images/logo/logo_bez_tła.webp"
+                src="images/logo/logo_bez_tla.webp"
+                width="128"
+                height="52"
                 alt="Strona Główna MaTTynk"
               />
             </a>
-            <button class="hamburger">
+            <button
+              class="hamburger"
+              aria-label="Rozwiń menu, aby zobaczyć dodatkowe zakładki"
+            >
               <span class="hamburger__box">
                 <span class="hamburger__inner"></span>
               </span>
@@ -59,6 +68,13 @@
           </div>
           <nav class="navigation">
             <ul class="flex">
+              <a
+                href="https://www.facebook.com/MaTTynkTynkiMaszynowe"
+                target="_blank"
+                class="facebook"
+              >
+                <i class="fa-brands fa-facebook"></i
+              ></a>
               <li><a href="./o_nas.html">O Nas</a></li>
               <li><a href="./oferta.html">Oferta</a></li>
               <li><a href="#">Realizacje</a></li>
@@ -183,16 +199,18 @@
           <div class="grid text-center">
             <div>
               <img
-                src="./images/logo/logo_bez_tła_odwrocone_kolory.webp"
+                src="./images/logo/logo_bez_tla_odwrocone_kolory.webp"
+                width="160"
+                height="64"
                 alt="Logo firmy"
               />
             </div>
             <div>
               <h2>Kontakt</h2>
               <div>
-                <a href="mailto:test@test.pl" target="_blank">
+                <a href="mailto:mattynk.biuro@gmail.com" target="_blank">
                   <i class="fa-solid fa-envelope icon"></i>
-                  <span>test@test.pl</span>
+                  <span>mattynk.biuro@gmail.com</span>
                 </a>
               </div>
               <div>
@@ -217,7 +235,7 @@
     </div>
     <div class="overlay"></div>
     <div class="gallery-container">
-      <img src="" data-original-src="" alt="">
+      <img src="" data-original-src="" alt="" />
       <i class="fa-solid fa-circle-xmark close"></i>
     </div>
     <div class="img-loader"></div>

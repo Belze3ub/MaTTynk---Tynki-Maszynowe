@@ -6,32 +6,29 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta
       property="og:title"
-      content="Tynki Maszynowe: Gipsowe, Gipsowo Utwardzane, Cementowo-Wapienne w
-      Województwie Podkarpackim | MaTTynk"
+      content="Tynki Maszynowe Rzeszów - MaTTynk | woj. Podkarpackie"
     />
     <meta
       property="og:description"
-      content="Firma 'MaTTynk' specjalizuje się w tynkach Maszynowych, Cementowo-Wapiennych, Gipsowych oraz Gipsowo-Utwardzanych. Działamy na terenie całego Województwa Podkarpackiego."
+      content="Firma 'MaTTynk' specjalizuje się w Tynkach Maszynowych (Cementowo-Wapiennych, Gipsowych oraz Gipsowo-Utwardzanych)."
     />
     <meta property="og:type" content="website" />
     <meta
       property="og:image"
-      content="./images/logo/logo_kolor_białe_tło.webp"
+      content="https://tynkimaszynowerzeszow.pl/images/logo/logo_kolor_biale_tlo_x.webp"
     />
     <meta property="og:url" content="https://tynkimaszynowerzeszow.pl" />
-    <title>
-      Tynki Maszynowe: Gipsowe, Gipsowo Utwardzane, Cementowo-Wapienne w
-      Województwie Podkarpackim | MaTTynk
-    </title>
+    <title>Tynki Maszynowe Rzeszów - MaTTynk | woj. Podkarpackie</title>
     <meta
       name="description"
-      content="Firma 'MaTTynk' specjalizuje się w tynkach Maszynowych, Cementowo-Wapiennych, Gipsowych oraz Gipsowo-Utwardzanych. Działamy na terenie całego Województwa Podkarpackiego."
+      content="Firma 'MaTTynk' specjalizuje się w Tynkach Maszynowych (Cementowo-Wapiennych, Gipsowych oraz Gipsowo-Utwardzanych)."
     />
     <meta
       name="keywords"
       content="Tynki maszynowe, Tynki cementowe, Tynki gipsowe, Tynki gipsowo-utwardzane, Tynki wewnętrzne, Tynki maszynowe, Usługi tynkarskie, Województwo Podkarpackie, Rzeszów"
     />
     <link rel="shortcut icon" href="./images/favicon.ico" type="image/x-icon" />
+    <link rel="stylesheet" href="styles.css" />
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
@@ -39,7 +36,6 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     />
-    <link rel="stylesheet" href="styles.css" />
     <script src="app.js" defer></script>
   </head>
   <body>
@@ -49,11 +45,16 @@
           <a href="/">
             <img
               class="logo"
-              src="images/logo/logo_bez_tła.webp"
+              src="images/logo/logo_bez_tla.webp"
+              width="128"
+              height="52"
               alt="Strona Główna MaTTynk"
             />
           </a>
-          <button class="hamburger">
+          <button
+            class="hamburger"
+            aria-label="Rozwiń menu, aby zobaczyć dodatkowe zakładki"
+          >
             <span class="hamburger__box">
               <span class="hamburger__inner"></span>
             </span>
@@ -61,7 +62,16 @@
         </div>
         <nav class="navigation">
           <ul class="flex">
-            <li><a href="./o_nas.html">O Nas</a></li>
+            <a
+              href="https://www.facebook.com/MaTTynkTynkiMaszynowe"
+              target="_blank"
+              class="facebook"
+            >
+              <i class="fa-brands fa-facebook"></i
+            ></a>
+            <li>
+              <a href="./o_nas.html">O Nas</a>
+            </li>
             <li><a href="./oferta.html">Oferta</a></li>
             <li><a href="./realizacje.html">Realizacje</a></li>
           </ul>
@@ -71,8 +81,13 @@
     <main>
       <section class="hero">
         <div class="container text-center hero-info">
-          <img src="images/logo/logo_bez_tła_odwrocone_kolory.webp" alt="Logo - Tynki Maszynowe">
-          <h1>Tynki Maszynowe - Cementowo-Wapienne, Gipsowe, Gipsowo-Utwardzane</h1>
+          <img
+            src="images/logo/logo_bez_tla_odwrocone_kolory_hero.webp"
+            width="1200"
+            height="483"
+            alt="Logo - Tynki Maszynowe"
+          />
+          <h1>Tynki Maszynowe - woj. Podkarpackie</h1>
           <div class="btns">
             <a href="#contact-us" class="btn cta-1">Skontaktuj się z nami</a>
             <a href="./realizacje.html" class="btn cta-2">Nasze Realizacje</a>
@@ -82,13 +97,13 @@
     </main>
     <section class="offer">
       <div class="container">
-        <h2>Nasze Usługi</h2>
+        <h2 class="text-center">Nasze Usługi</h2>
         <div class="grid text-center">
           <div class="grid-item">
             <div class="icon-wrapper flex">
               <i class="fa-solid fa-house icon"></i>
             </div>
-            <h3>Tynki Cementowe</h3>
+            <h3>Tynki Cementowo-wapienne</h3>
           </div>
           <div class="grid-item">
             <div class="icon-wrapper flex">
@@ -100,7 +115,7 @@
             <div class="icon-wrapper flex">
               <i class="fa-solid fa-landmark icon"></i>
             </div>
-            <h3>Tynki Gipsowo Utwardzane</h3>
+            <h3>Tynki Gipsowe Utwardzane</h3>
           </div>
         </div>
       </div>
@@ -108,16 +123,16 @@
     <section class="work-range">
       <div class="container">
         <div>
-          <img src="./images/city.svg" alt="Zdjęcie miasta" />
+          <img src="./images/city.svg" alt="Grafika miasta" />
           <h3 class="text-center">
-            Swoje usługi oferujemy na terenie całego województwa Podkarpackiego
+            Nasze usługi oferujemy na terenie całego woj. Podkarpackiego
           </h3>
         </div>
       </div>
     </section>
     <section class="showcase">
       <div class="container">
-        <h2>Profesjonalne podejście do każdego klienta</h2>
+        <h2 class="text-center">Profesjonalne podejście do każdego klienta</h2>
         <div class="grid text-center">
           <div class="grid-item">
             <i class="fa-solid fa-chart-line card-icon"></i>
@@ -143,6 +158,7 @@
         loading="lazy"
         referrerpolicy="no-referrer-when-downgrade"
         class="map"
+        title="Mapa z lokalizacją firmy"
       ></iframe>
     </section>
     <footer id="contact-us">
@@ -150,16 +166,18 @@
         <div class="grid text-center">
           <div>
             <img
-              src="./images/logo/logo_bez_tła_odwrocone_kolory.webp"
+              src="./images/logo/logo_bez_tla_odwrocone_kolory.webp"
+              width="160"
+              height="64"
               alt="Logo firmy"
             />
           </div>
           <div>
             <h2>Kontakt</h2>
             <div>
-              <a href="mailto:test@test.pl" target="_blank">
+              <a href="mailto:mattynk.biuro@gmail.com" target="_blank">
                 <i class="fa-solid fa-envelope icon"></i>
-                <span>test@test.pl</span>
+                <span>mattynk.biuro@gmail.com</span>
               </a>
             </div>
             <div>
